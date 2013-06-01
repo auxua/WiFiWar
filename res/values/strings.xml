@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WiFiWar</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="short_desc">This is WiFiWar - A Tool for WiFi-Wardriving</string>
+    <string name="b_act_state">State</string>
+    <string name="b_scan">Start Scan</string>
+    <string name="scan_scan">Scanning...</string>
+    <string name="title_activity_scan">ScannerActivity</string>
+    <string name="t_scanUID">ScanUID:</string>
+    <string name="b_back">Go Back</string>
+
+</resources>

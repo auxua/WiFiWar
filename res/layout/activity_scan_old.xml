@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical" >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="109dp"
+        android:layout_y="37dp"
+        android:text="@string/scan_scan"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/but_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="112dp"
+        android:layout_y="386dp"
+        android:text="@string/b_back" />
+
+    <ProgressBar
+        android:id="@+id/proStatus"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="33dp"
+        android:layout_x="1dp"
+        android:layout_y="279dp" />
+
+    <TextView
+        android:id="@+id/textStatus"
+        android:layout_width="150dp"
+        android:layout_height="39dp"
+        android:layout_x="95dp"
+        android:layout_y="145dp" />
+
+</AbsoluteLayout>

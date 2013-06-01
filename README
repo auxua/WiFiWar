@@ -1,0 +1,12 @@
+WiFiWar - A simple tool for Wifi Wardriving
+
+
+== What is this? ==
+
+This is a simple Android Application for Wifi Wardriving using an underlying map.
+
+
+
+== What is used? ==
+
+The Android SDK from Google and map data from the OpenStreetMap project ( http://osm.org )

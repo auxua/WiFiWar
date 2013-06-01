@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:text="@string/scan_scan"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/but_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="37dp"
+        android:text="@string/b_back" />
+
+    <ProgressBar
+        android:id="@+id/proStatus"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="33dp"
+        android:layout_above="@+id/but_back"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="62dp"
+        android:maxWidth="280dp"
+        android:minWidth="280dp" />
+
+    <TextView
+        android:id="@+id/textStatus"
+        android:layout_width="150dp"
+        android:layout_height="39dp"
+        android:layout_above="@+id/proStatus"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="89dp" />
+
+</RelativeLayout>
